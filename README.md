@@ -1,22 +1,9 @@
-name: Generate Datas
-on:
-  schedule: # execute every 12 hours
-    - cron: "* */12 * * *"
-  workflow_dispatch:
-jobs:
-  build:
-    name: Jobs to update datas
-    runs-on: ubuntu-latest
-    steps:
-      # Snake Animation
-      - uses: Platane/snk@master
-        id: snake-gif
-with:
-          github_user_name: ahmedwarsama1
-          svg_out_path: dist/github-contribution-grid-snake.svg
-      - uses: crazy-max/ghaction-github-pages@v2.1.3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+# kyechan99.github.io
+
+![](/assets/favicon.ico)
+<a href="https://github.com/ahmedwarsama1/ahmedwarsama1/edit/main/README.md">
+<img src="https://img.shields.io/badge/ISSUE-COMMENT-%239dd665?style=for-the-badge"/>
+</a>
+<a href="https://ahmedwarsama1.github.io/">
+<img src="https://img.shields.io/badge/BLOG-SITE-%235f5fff?style=for-the-badge"/>
+</a>
